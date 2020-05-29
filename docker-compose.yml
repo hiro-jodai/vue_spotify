@@ -1,0 +1,17 @@
+version: '3'
+
+######### Services ###################################
+
+services:
+  # Client container
+  nuxt:
+    container_name: nuxt
+    port:
+      - 80:3000
+    volumes:
+      - ./nuxt:/var/www/html
+    networks:
+      - kintai_map
+networks:
+  kintai_map:
+    external: true
