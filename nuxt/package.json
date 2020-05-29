@@ -1,0 +1,30 @@
+{
+  "name": "nuxt_spotify",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "HOST=0.0.0.0 PORT=3000 nuxt",    
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/vuetify": "^1.11.2",
+    "sass-loader": "^8.0.2",
+    "vuetify": "^2.2.28"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}
